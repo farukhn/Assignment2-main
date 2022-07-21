@@ -426,6 +426,7 @@ a , button {
     display: flex;
     align-items: center;
     padding: 0px 30px;
+    
   }
 
   .banner-section {
@@ -467,8 +468,9 @@ a , button {
     background-color: rgb(40, 4, 71);
     margin-top: 10px;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     margin-right: 10px;
+    font-size: 13px;
   }
 
   .select-button-container .button {
@@ -476,6 +478,7 @@ a , button {
     margin: 10px 0;
     padding: 10px 0;
     width: 100%;
+    
   }
 
   .select-button-container .button {
