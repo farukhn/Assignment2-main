@@ -40,6 +40,7 @@ body {
   animation: bg-img-animate 5s linear infinite;
 }
 
+/* animaiton style */
 @keyframes bg-img-animate {
     0%   {
      transform: scale(1);
@@ -52,6 +53,8 @@ body {
     }
 }
 
+
+/* style for banner section */
 .banner-section {
   padding-top: 20px;
   box-sizing: content-box;
@@ -101,6 +104,7 @@ body {
   font-weight: 400;
   padding: 20px 0;
 }
+
 .top-banner-image {
   margin: 0 auto;
   display: flex;
@@ -108,13 +112,15 @@ body {
   width: 50%;
   justify-content: center;
 }
+
 .banner-image img {
   width: 250px;
   margin-bottom: -4px;
   overflow: hidden;
 }
 
-/* styles for selected btns  */
+
+/* styles for selected buttons  */
 .select-button-container {
   margin: 20px 0;
 }
@@ -301,6 +307,7 @@ a , button {
   padding: 30px 0;
 }
 
+/* responsive style for tab */
 @media only screen and (max-width: 767px) {
   .banner-text {
     display: flex;
@@ -318,10 +325,12 @@ a , button {
   .flex-item {
     width: 50%;
   }
+
   .top-section .img-container {
     height: 100%;
     flex-wrap: nowrap;
   }
+
   .top-section {
     height: 45vh;
     border-radius: 20px;
@@ -399,14 +408,19 @@ a , button {
   .ucm-card-flag img {
     width: 90px;
   }
+
 }
+
+/* responsive style for desktop */
 @media only screen and (min-width: 1200px) {
   .container {
     width: 80%;
   }
+
   .flex-item {
     width: 33.3333%;
   }
+
   .top-section  {
     height: 100%;
     display: flex;
